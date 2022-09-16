@@ -22,7 +22,7 @@ model-index:
   results:
   - task:
       type: sigle-label-classification             # Required.
-      name: Signle Lael Classification             # Optional.
+      name: Signle Label Classification             # Optional.
     model:
       type: pre-trained
       name: kogpt2
@@ -32,7 +32,7 @@ model-index:
         batch_size: 8
     dataset:
       type: kisti/paper-code                       # Required. 
-      name: Paper Classification Coce (Korean)     # Required.
+      name: Paper Classification Code (Korean)     # Required.
       split:
         train: 0.64
         valid: 0.16
